@@ -7,6 +7,9 @@ public class GitTest {
 
 	}
 	
-	
+	private void remoteCheck() {
+		System.out.println("chenna krishna");
+
+	}
 
 }
