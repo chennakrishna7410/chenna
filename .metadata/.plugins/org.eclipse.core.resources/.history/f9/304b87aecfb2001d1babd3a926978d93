@@ -1,0 +1,46 @@
+package org.executable;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Selenium {
+	
+public static void main(String[] args) throws AWTException  {
+	
+	WebDriverManager.edgedriver().setup();
+	WebDriver x = new EdgeDriver();
+	
+	x.get("https://www.facebook.com/");
+	
+	x.manage().window().maximize();
+	
+	Actions a = new Actions(x);
+	
+	WebElement e1 = x.findElement(By.xpath("//input[@id='email']"));
+	e1.sendKeys("chenna7410");
+	
+	a.doubleClick(e1).perform();
+	
+	a.contextClick(e1).perform();
+	
+	Robot r = new Robot();
+	
+	for (int i = 0; i < 4; i++) {
+		
+		r.
+		
+	}
+	
+	
+}
+
+}

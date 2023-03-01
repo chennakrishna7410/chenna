@@ -1,0 +1,10 @@
+package org.sampe;
+
+public class GitTest {
+	
+	private void gitTest() {
+		System.out.println("Git Hub");
+
+	}
+
+}
