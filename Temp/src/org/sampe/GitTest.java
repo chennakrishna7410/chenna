@@ -11,5 +11,10 @@ public class GitTest {
 		System.out.println("chenna krishna");
 
 	}
+	
+	private void updatecode1() {
+		System.out.println("phone number");
+
+	}
 
 }
