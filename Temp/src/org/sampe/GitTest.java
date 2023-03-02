@@ -11,5 +11,10 @@ public class GitTest {
 		System.out.println("chenna krishna");
 
 	}
+	
+	private void updation() {
+		System.out.println("adress");
+
+	}
 
 }
