@@ -15,6 +15,12 @@ public class GitTest {
 	private void updatecode1() {
 		System.out.println("phone number");
 
+
 	}
 
-}
+	private void updation() {
+		System.out.println("adress");
+
+	
+
+	}}
